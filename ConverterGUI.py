@@ -64,6 +64,4 @@ download_type_segmented_button.pack(pady=12, padx=10)
 download_button = customtkinter.CTkButton(master=frame, text="Download", command=validate_and_run)
 download_button.pack(pady=12, padx=10)
 
-
-
 root.mainloop()
