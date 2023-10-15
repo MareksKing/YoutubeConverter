@@ -34,7 +34,7 @@ def validate_and_run():
     validate_download_location_not_empty()
     if link_validation:
         subprocess.run(["python", youtube_file, "--link", link_input.get(), "--location", download_location_input.get(), "--type", download_type_segmented_button.get()])
-
+        messagebox.showinfo(title="Info", message="Download done")
 
 customtkinter.set_appearance_mode("Dark")
 customtkinter.set_default_color_theme("dark-blue")
